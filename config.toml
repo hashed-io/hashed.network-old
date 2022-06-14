@@ -1,3 +1,8 @@
 baseURL = 'https://hashed-io.github.io/hashed.network'
 languageCode = 'en-us'
-title = 'Hashed Network Coming Soon'
+
+[params]
+  title = 'Hashed Network Coming Soon'
+  titleSeparator = "|"
+  description = "We are a global team focused on block production and innovation on Telos. We operate on bare metal servers located in New York City."
+  thumbnail = "logo/logo.jpg"
