@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Manuka";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("../manuka-regular.woff2") format("woff2");
+}
+
+* {
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-family: Manuka, Helvetica, sans-serif;
+}
