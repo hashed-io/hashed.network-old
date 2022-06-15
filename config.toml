@@ -1,5 +1,6 @@
 baseURL = 'https://hashed-io.github.io/hashed.network'
 languageCode = 'en-us'
+googleAnalytics = 'G-NBTGPNHNNP'
 
 [params]
   title = 'Hashed Network Coming Soon'

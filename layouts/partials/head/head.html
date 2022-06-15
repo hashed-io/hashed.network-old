@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/favicon" . }}{{ partial "head/favicon.html" . }}{{ end }}
+  {{ template "_internal/google_analytics.html" . }}
 
   {{ $css := resources.Get "css/styles.css" }}
   {{ $style := $css | resources.Minify }}
