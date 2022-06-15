@@ -1,8 +1,11 @@
 {{ define "main"}}
-  <div style="text-align: center; margin-top: 250px;">
-    <img src="./logo-gradient-white.png" alt="logo" width="750px">
+  <div class="wrapper" style="text-align: center; margin-top: 250px;">
+    <img class="logo-img" src="./logo-gradient-white.png" alt="logo" width="750px">
+    <img class="gradient-img" src="./icons/gradient.png" alt="logo" width="750px">
     {{ .Content }}
-    <a href="mailto:hello@hashed.io" style="background-color: white; padding: 10px 35px; text-decoration: none; color: #1f222a; font-size: 1rem; border-radius: 8px;">Contact us</a>
-    <a href="https://youtu.be/2vWnCj8vxXc" rel="nofollow noopener noreferrer" target="_blank" style="background-color: white; padding: 10px 35px; text-decoration: none; color: #1f222a; font-size: 1rem; border-radius: 8px;">Video Walkthrough of Deck</a>
+    <div class="actions">
+      <a href="mailto:hello@hashed.io" style="background-color: white; padding: 10px 35px; text-decoration: none; color: #1f222a; font-size: 1rem; border-radius: 8px;">Contact us</a>
+      <a href="https://youtu.be/2vWnCj8vxXc" rel="nofollow noopener noreferrer" target="_blank" style="background-color: white; padding: 10px 35px; text-decoration: none; color: #1f222a; font-size: 1rem; border-radius: 8px;">Deck Video</a>
+    </div>
   </div>
 {{ end }}
