@@ -54,5 +54,11 @@
 
   .logo-img {
     display: none;
+
+  }
+  .actions {
+    margin: 0 auto;
+    max-width: 250px;
+    flex-direction: column;
   }
 }
