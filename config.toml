@@ -1,4 +1,4 @@
-baseURL = 'https://hashed-io.github.io/hashed.network'
+baseURL = 'http://hashed.network/'
 languageCode = 'en-us'
 googleAnalytics = 'G-NBTGPNHNNP'
 
