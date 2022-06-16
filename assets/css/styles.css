@@ -11,6 +11,7 @@
   letter-spacing: 5px;
   font-size: 2rem;
   font-family: Manuka, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -32,10 +33,35 @@
 }
 
 .actions {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex: 1 0;
+  gap: 25px;
+}
+
+.actions a {
+  width: 50%;
+}
+
+@media screen and (max-width: 950px) {
+  .wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .actions {
+    margin: 0 auto;
+    margin-top: 15%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .actions a {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -44,7 +70,7 @@
   }
 
   .wrapper {
-    margin-top: 10%;
+    margin: 30% 15% 0;
   }
 
   .gradient-img {
@@ -54,12 +80,5 @@
   .logo-img {
     display: none;
 
-  }
-  .actions {
-    min-width: 250px;
-    margin: 0 auto;
-    margin-top: 10%;
-    flex-direction: column;
-    flex-wrap: nowrap;
   }
 }
