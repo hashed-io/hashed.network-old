@@ -54,7 +54,7 @@
   
   .actions {
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 25%;
     flex-direction: column;
     flex-wrap: nowrap;
   }
@@ -70,7 +70,7 @@
   }
 
   .wrapper {
-    margin: 30% 15% 0;
+    margin: 10% 15% 0;
   }
 
   .gradient-img {
