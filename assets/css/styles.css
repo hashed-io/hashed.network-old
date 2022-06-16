@@ -44,11 +44,10 @@
   }
 
   .wrapper {
-    margin-top: 25%;
+    margin-top: 10%;
   }
 
   .gradient-img {
-    max-width: 250px;
     display: initial;
   }
 
@@ -57,8 +56,9 @@
 
   }
   .actions {
+    min-width: 250px;
     margin: 0 auto;
-    max-width: 250px;
+    margin-top: 10%;
     flex-direction: column;
     flex-wrap: nowrap;
   }
